@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_chuvalab.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;300;400;600;700&display=swap" rel="stylesheet">   
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>ChuvaLab</title>
+</head>
+<body>
+    <header>
+        <img class="img__logo" src="logo_chuvalab_header.svg" alt="logo chuvalab">
+        <nav>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projetos</a>
+                <ul>
+                    <li><a href="#">ChuvaView</a></li>
+                    <li><a href="#">ChuvaRepor</a></li>
+                    <li><a href="#">ChuvaIA</a></li>
+                 </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#" class="fonte--preta">Acesso Restrito</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+
+        <img class="banner" src="fig3_banner.svg">
+        
+        <section class="chuvalab">
+            <img class="img__card--left" src="FIG_v2_chuva_bolas.svg">
+            <div class="card--grande">
+                <img class="margin__20--top--bottom img__card--center"src="logo_chuvalab_nuvem_cinza.svg">
+                
+                <p>
+                    <strong>ChuvaLab</strong> nasceu com o objetivo de desenvolver e implementar ferramentas inteligentes de apoio à decisão focados nas condições atmosféricas, em especial nos eventos de precipitação e seus impactos no estado de Minas Gerais.
+                </p><br>
+                <p>A busca em aplicar as novas tecnologias aos dados meteorológicos para gerar informações de qualidade, rápidas, e de fácil entendimento para sociedade, está no DNA do ChuvaLab.</p><br>
+                <p>Sabemos que a informação de tempo e clima aliada a regra de negócio pode contribuir para um melhor planejamento, aumento na qualidade de produção e redução de danos causados pela atuação de eventos meteorológicos.</p><br>
+                <img class="img__card--right" src="FIG_v2_bola_azul.svg">
+            </div>
+            <img class="img__card--bottom" src="FIG_v2_cel.svg">
+        </section>
+        <nav>
+            <p class="texto__titulo">Projetos</p>
+        </nav>
+
+        <section class="chuvaview">
+            <div class="card--pequeno">
+                <img class="card--pequeno__img margin__40--left margin__20--bottom" src="logo_chuvaview_nuvem_cinza.svg">
+                <p>Possui foco na divulgação da informação meteorológica para a sociedade, e em especial para os meios de comunicação, utilizando tecnologias de ponta e realidade aumentada</p>
+            </div>
+            <div class="card--pequeno margin__50--top">
+                <img class="card--pequeno__img margin__40--left margin__20--bottom" src="logo_chuvarepor_nuvem_cinza.svg">
+                <p>Visa a criação de um repositório de dados de precipitação e registro dos impactos dos eventos para a sociedade</p>
+            </div>
+            <div class="card--pequeno">
+                <img class="margin__80--left  margin__20--bottom" src="logo_chuvaia_nuvem_cinza.svg">
+                <p>Busca aplicar ferramentas de inteligência artificial para entregar uma informação de qualidade e com maior agilidade</p>
+            </div>
+
+        </section>
+        <p class="texto--livre">Nossa tecnologia permite buscar e armezenar dados de precipitação e notícias associadas aos eventos de precipitação, desta forma geramos uma memória do passado que poderá ser utilizada nas mais variadas aplicações, dentre elas o planejamento de medidas preventivas para agregar valor e minimizar perdas e danos.</p>
+        <img class="img--center"src="FIG_v2_dados_mundo.svg">
+        <p class="faixa--movimento">
+            Fonte primária dos dados: INMET, Redemet, CPTEC, CEMADEN, NCEP.
+        </p>
+    </main>
+    <footer>
+        <div class="footer__texto">
+            <h2 class="margin__20--top--bottom">Quem somos</h2>
+            <p>ChuvaLab é uma equipe composta por meteorologistas, cientistas de dados e analistas de sistemas que adoram tecnologia e acompanhar o comportamento do tempo e clima. Estamos trabalhando para manter uma fonte de dados confiável e de fácil acesso para todo o Brasil</p>
+            <br>
+            <a href="#"><p class="footer__texto--direita">Saiba mais!</p></a>
+            <a href="#"><p class="footer__texto--direita">Nos ajude a manter o projeto.</p></a>
+            <br><br><br>
+            <p class="footer__texto--embaixo">Copyright &copy 2023 ChuvaLab</p>
+        </div>
+        <div class="footer__texto">
+            <h2> Área do Cliente</h2>
+            <h3> (Acesso Restrito)</h3>
+            <form class="form__footer--login">
+                <fieldset >
+                    <label class="footer__texto--direita">Login:</label><br>
+                    <input class="form__footer--input" type="email"><br>
+                    <label class="footer__texto--direita">Senha:</label><br>
+                    <input class="form__footer--input" type="password"><br>
+                    <button class="form__button--login">Entrar</button>
+                </fieldset>
+            </form>
+            <img src="FIG_v2_mapa_mundi.svg" alt="Mapa Mundi" width="60%">
+        </div>
+        <div class="footer__texto">
+            <h2>Entre em contato conosco:</h2>
+            <form class="form__footer--login">
+                <fieldset>
+                    <label class="footer__texto--direita">Email:</label><br>
+                    <input class="form__footer--input" type="email"><br>
+                    <label class="footer__texto--direita">Assunto:</label><br>
+                    <input class="form__footer--input" type="text"><br>                    
+                    <textarea class="form__footer--area" type="text"></textarea><br>
+                    <button class="form__button--login">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    
+</body>
+</html>
