@@ -365,19 +365,50 @@ footer {
     header{
         flex-direction: column;
     }
+  .menu{
+    display: none;
+  }
   .chuvaview {
     flex-direction: column;
   }
-  .card--pequeno{
-    width: 100%;
+  .card--grande{
+    margin: 0 auto;
+    padding: 1.0rem;
+    width: 90vw;
+    font-size: 1.2rem;
   }
+  .card--pequeno{
+    width: 80vw;
+    height: 30vh;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 1.6rem;
+  }
+  .card--pequeno:hover {
+    transition: transform 2s;
+    background: var(--cor-terciaria);
+    transform: translateX(3px) scale(1.1);
+  }
+  .texto__titulo{
+    font-size: 2.0rem;
+    width: 90vw;
+    height: 3rem;
+  }
+  
   .img__card--left {
     display: none;   
   }
   .img__card--bottom{
     display: none;
   }
-  .img__card--center{
+  .img__card--right{
     display: none;
+  }
+  .texto--livre{
+    margin: 3rem auto;
+    height: 30vh;
+    width: 80vw;
+    text-align: justify;
+    line-height: 1.6rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
 }
